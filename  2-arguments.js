@@ -6,7 +6,7 @@ const argCount = process.argv.length - 2;
 if (argCount === 0) {
   console.log("No argument");
 } else if (argCount === 1) {
-  console.log("Argument found");
+  console.log("Argument 1");
 } else {
-  console.log("Arguments found");
+  console.log("Arguments 2");
 }
